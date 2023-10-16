@@ -1,0 +1,210 @@
+.body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.section{
+   width: 40%;
+   height: 100%;
+   /* background-color: rgb(97, 43, 97); */
+   background-image: url("back.png");
+   background-size: 50vw 100vh;
+   background-repeat: no-repeat;
+   position:relative;
+   /* border: 2px solid yellow; */
+}
+.card-front{
+   height: 30%;
+   width: 55%;
+   /* border: 2px solid red; */
+   background-image: linear-gradient(45deg,rgb(150, 38, 118), rgb(96, 96, 187));
+   border-radius: 10px;
+   position: absolute;
+   top:10% ;
+   right: -15%;
+}
+.top{
+ height: 50%;
+ width: 100%;
+ /* border: 2px solid red; */
+ display: flex;
+}
+#white{
+    height: 30%;
+    width: 10%;
+    border-radius: 50%;
+    background-color: white;
+    margin:10px 0px 0px 10px;
+}
+#blank{
+    height:20% ;
+    width:7%;
+    margin:13px 0px 0px 15px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+.bottom{
+ height: 50%;
+ width: 100%;
+ /* border: 2px solid yellow; */
+}
+#card-n{
+    margin-top: 7%;
+    margin-right: 4%;
+    margin-left: 5%;
+    letter-spacing: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#name{
+    margin-left: 5%;
+    color: white;
+    font-size: small;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#card-e{
+    display: flex;
+    justify-content: space-between;
+}
+#ex{
+   color: white;
+   margin-right:4% ;
+}
+.card-back{
+    height: 30%;
+   width: 55%;
+   /* border: 2px solid red; */
+   border-radius: 10px;
+   position: absolute;
+   top:45% ;
+   right: -22%;
+   background-color: whitesmoke;
+   
+}
+.black{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    margin-top: 10%;
+}
+#cvc-no{
+    width: 80%;
+    height: 15%;
+    background-color: rgb(202, 195, 195);
+    text-align: right;
+    margin: 4% auto 0 auto;
+}
+#cvc-no p{
+    padding: 4px 4px 0px 0px;
+}
+.aside{
+    width: 60%;
+    height: 100%;
+    background-color:#d2bd9680;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+   /* border: 2px solid red; */
+}
+.form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50%;
+    font-weight: 600;
+    /* border: 2px solid rgb(208, 145, 145); */
+}
+
+#text{
+    width: 100%;
+    box-sizing: border-box;
+    height: 60%;
+    border: none;
+}
+ #card{
+    /* border: 2px solid red; */
+    width: 100%;
+ }  
+#number{
+    width: 100%;
+    box-sizing: border-box;
+    height: 60%;
+    border: none;
+     /* border: 2px solid red; */
+}
+.dates{
+    display: flex;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+
+}
+.left-dates{
+    width: 50%;
+}
+.right-dates{
+    width: 45%;
+}
+.exp{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 100%;
+
+    justify-content: space-between;
+    margin-right: 5px;
+}
+#mm{
+    width: 45%;
+    height: 100%;
+    margin-right: 5px;
+    /* box-sizing: border-box; */
+}
+#Mm{
+    width: 90%;
+    height: 100%;
+    border: none;
+    height: 22px;
+    /* box-sizing: border-box; */
+  }
+#yy{
+    width: 45%;
+    height: 100%;
+    /* border: none; */
+    /* box-sizing: border-box; */
+}
+
+#Yy{
+    width: 90%;
+    height: 110%;
+    height: 22px;
+    border: none;
+    /* border: none; */
+    /* box-sizing: border-box; */
+}
+#cv{
+    width: 98%;
+    height: 22px;
+    border: none;
+    /* box-sizing: border-box; */
+}
+.submit{
+    width: 100%;
+    height: 13%;
+    background-color: rgb(38, 19, 38);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.thanx{
+    text-align: center;
+}
+.thanx button{
+    background-color: rgb(38, 19, 38);
+    color: white;
+}
